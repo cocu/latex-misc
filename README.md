@@ -30,7 +30,7 @@ this macro supported 0~99.
 this macro needs twoDigits. If you customize it, change \LastCompiledStr.  
 twoDigitsを使ってます。日時のフォーマットを変えたいときは\LastCompiledStrを変えてください。
 
-![LastCompileDate](https://raw.github.com/cocu/latex-misc/master/pic/continuedEnumerate.png)
+![LastCompileDate](https://raw.github.com/cocu/latex-misc/master/pic/LastCompileDate.png)
 
 ``` latex
 \newcommand{\twoDigits}[1]{\ifnum#1<10 0#1\else#1\fi}
