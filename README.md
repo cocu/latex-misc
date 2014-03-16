@@ -8,6 +8,8 @@ Please use it if you like.
 私が使っているマクロ集です。  
 よければお使いください。
 
+
+License: public domain(Unlicense)
 - - -
 
 ### TwoDigits(二桁化)
