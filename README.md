@@ -10,7 +10,7 @@ Please use it if you like.
 
 - - -
 
-## TwoDigits(二桁化)
+### TwoDigits(二桁化)
 this macro supported 0~99.  
 0~99までの引数で1桁のものに0をつけます。
 
@@ -22,7 +22,7 @@ this macro supported 0~99.
 % \twoDigits{100} -> 100 % not supported
 ```
 
-## LastCompileDate(最終コンパイル日時を印字)
+### LastCompileDate(最終コンパイル日時を印字)
 this macro needs twoDigits. If you customize it, change \LastCompiledStr.  
 twoDigitsを使ってます。日時のフォーマットを変えたいときは\LastCompiledStrを変えてください。
 
@@ -35,7 +35,7 @@ twoDigitsを使ってます。日時のフォーマットを変えたいとき�
 % ex) \LastCompileDate\end{document}
 ```
 
-## continuedEnumerate(enumerate環境を区切っても番号は続ける)
+### continuedEnumerate(enumerate環境を区切っても番号は続ける)
 
 ``` latex
 \newcounter{enumeratelastnumber}
