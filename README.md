@@ -59,7 +59,7 @@ twoDigitsを使ってます。日時のフォーマットを変えたいとき�
 % \end{continuedEnumerate}
 ```
 
-## emphasisedItem(itemを強調する)
+### emphasisedItem(itemを強調する)
 This macro add `\eitem` command, that add symbol before `\item` in `itemize` or `enumerate`.  
 `\item`の前にシンボルを追加します。
 
