@@ -68,7 +68,7 @@ twoDigitsを使ってます。日時のフォーマットを変えたいとき�
 This macro add `\eitem` command, that add symbol before `\item` in `itemize` or `enumerate`.  
 `\item`の前にシンボルを追加します。
 
-![emphasisedItem](https://github.com/cocu/latex-misc/blob/master/pic/emphasisedItem.png)
+![emphasisedItem](https://raw.github.com/cocu/latex-misc/master/pic/emphasisedItem.png)
 
 ``` latex
 \newlength{\eitemindent}\setlength{\eitemindent}{12mm}
