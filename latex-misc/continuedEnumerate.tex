@@ -1,0 +1,23 @@
+\documentclass{jsarticle}
+
+\newcounter{enumeratelastnumber}
+\setcounter{enumeratelastnumber}{0}
+\newenvironment{continuedEnumerate}{ %
+	\begin{enumerate}
+	\setcounter{enumi}{\value{enumeratelastnumber}}
+}{ %
+	\setcounter{enumeratelastnumber}{\value{enumi}}
+	\end{enumerate}
+}
+
+\begin{document}
+\begin{continuedEnumerate}
+\item first
+\item second
+\end{continuedEnumerate}
+splitted
+\begin{continuedEnumerate}
+\item third
+\item fourth
+\end{continuedEnumerate}
+\end{document}

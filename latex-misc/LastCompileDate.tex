@@ -1,0 +1,8 @@
+\documentclass{jsarticle}
+
+\newcommand{\twoDigits}[1]{\ifnum#1<10 0#1\else#1\fi}
+\newcommand{\LastCompileDateStr}{lastcompiled:\the\year/\the\month/\the\day~\twoDigits{\the\hour}:\twoDigits{\the\minute}}
+\newcommand{\LastCompileDate}{\vspace*{\fill}\hspace*{\fill} \LastCompileDateStr}
+
+\begin{document}
+\LastCompileDate\end{document}

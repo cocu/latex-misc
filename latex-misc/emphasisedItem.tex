@@ -1,0 +1,21 @@
+\documentclass{jsarticle}
+
+\newlength{\eitemindent}\setlength{\eitemindent}{12mm}
+\newlength{\eiteminnerboxwidth}\setlength{\eiteminnerboxwidth}{5mm}
+\newcommand{\eitem}[1][]{ %
+	\item\hspace{-\eitemindent}
+	\makebox[\eiteminnerboxwidth]{#1}
+	\hspace{-\eiteminnerboxwidth}
+	\hspace{\eitemindent}
+	\hspace{-5.5mm} % space between enumerate number and strings. 
+}
+
+\begin{document}
+\begin{enumerate}
+\eitem spam
+\eitem impo
+\eitem[$\bigcirc$]important!!!
+\eitem[$\times$]bad
+\eitem[$\bigtriangleup$]so so
+\end{enumerate}
+\end{document}
