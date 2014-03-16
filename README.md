@@ -14,6 +14,8 @@ Please use it if you like.
 this macro supported 0~99.  
 0~99までの引数で1桁のものに0をつけます。
 
+![twoDigits](https://raw.github.com/cocu/latex-misc/master/pic/twoDigits.png)
+
 ```latex
 \newcommand{\twoDigits}[1]{\ifnum#1<10 0#1\else#1\fi}
 
@@ -26,6 +28,8 @@ this macro supported 0~99.
 this macro needs twoDigits. If you customize it, change \LastCompiledStr.  
 twoDigitsを使ってます。日時のフォーマットを変えたいときは\LastCompiledStrを変えてください。
 
+![LastCompileDate](https://raw.github.com/cocu/latex-misc/master/pic/continuedEnumerate.png)
+
 ``` latex
 \newcommand{\twoDigits}[1]{\ifnum#1<10 0#1\else#1\fi}
 \newcommand{\LastCompileDateStr}{lastcompiled:\the\year/\the\month/\the\day~\twoDigits{\the\hour}:\twoDigits{\the\minute}}
@@ -36,6 +40,7 @@ twoDigitsを使ってます。日時のフォーマットを変えたいとき�
 ```
 
 ### continuedEnumerate(enumerate環境を区切っても番号は続ける)
+![continuedEnumerate](https://raw.github.com/cocu/latex-misc/master/pic/continuedEnumerate.png)
 
 ``` latex
 \newcounter{enumeratelastnumber}
@@ -62,6 +67,8 @@ twoDigitsを使ってます。日時のフォーマットを変えたいとき�
 ### emphasisedItem(itemを強調する)
 This macro add `\eitem` command, that add symbol before `\item` in `itemize` or `enumerate`.  
 `\item`の前にシンボルを追加します。
+
+![emphasisedItem](https://github.com/cocu/latex-misc/blob/master/pic/emphasisedItem.png)
 
 ``` latex
 \newlength{\eitemindent}\setlength{\eitemindent}{12mm}
